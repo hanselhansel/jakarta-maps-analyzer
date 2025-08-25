@@ -4,7 +4,7 @@
 
 **NEVER share your API key in plain text or commit it to version control!**
 
-The API key you shared (`AIzaSyA3Z0jo47_XxVqNDoofubkKFsmA-PlaVzg`) has been securely stored in your `.env` file, but you should:
+If you have exposed your API key anywhere, you should:
 
 1. **Regenerate this API key immediately** in the Google Cloud Console since it was exposed
 2. **Review your Google Cloud Console** for any unauthorized usage
@@ -16,7 +16,7 @@ The API key you shared (`AIzaSyA3Z0jo47_XxVqNDoofubkKFsmA-PlaVzg`) has been secu
 Your API key is now stored in `/Users/hansel/Library/CloudStorage/GoogleDrive-hansel.wahjono@gmail.com/Other computers/My MacBook Air 2024/Documents/mapping-ai/jakarta-maps-analyzer/.env`:
 
 ```env
-GOOGLE_MAPS_API_KEY=AIzaSyA3Z0jo47_XxVqNDoofubkKFsmA-PlaVzg
+GOOGLE_MAPS_API_KEY=your_actual_api_key_here
 SEARCH_LATITUDE=-6.2088
 SEARCH_LONGITUDE=106.8456
 SEARCH_RADIUS=50000

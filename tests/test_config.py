@@ -187,11 +187,11 @@ class TestAPIKeyValidation:
     @pytest.mark.unit
     def test_validate_api_key_correct_format(self):
         """Test validation of correctly formatted API key."""
-        # Test various valid formats
+        # Test various valid formats - using clearly fake keys
         valid_keys = [
             "AIzaSyDummyTestKeyFor39CharacterString",
-            "AIzaSyA1B2C3D4E5F6G7H8I9J0K1L2M3N4O5P6Q",
-            "AIzaSy123456789012345678901234567890123"
+            "AIzaSyXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
+            "AIzaSyFAKE_KEY_FOR_TESTING_PURPOSES_XX"
         ]
         
         for key in valid_keys:
