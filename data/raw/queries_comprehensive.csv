@@ -1,0 +1,43 @@
+keyword,category,sub_category
+klinik hewan,Competitor,Clinic_General
+dokter hewan,Competitor,Clinic_General
+pet clinic,Competitor,Clinic_General
+animal hospital,Competitor,Emergency_Hospital
+animal clinic,Competitor,Clinic_General
+veterinary clinic,Competitor,Clinic_General
+grooming anjing,Competitor,Grooming_Salon
+pet grooming,Competitor,Grooming_Salon
+pet salon,Competitor,Grooming_Salon
+grooming kucing,Competitor,Grooming_Salon
+pet shop,Customer,Pet_Store
+toko hewan,Customer,Pet_Store
+pet store,Customer,Pet_Store
+petshop,Customer,Pet_Store
+Ranch Market,Affluence_Proxy,Premium_Supermarket
+The Foodhall,Affluence_Proxy,Premium_Supermarket
+Grand Lucky,Affluence_Proxy,Premium_Supermarket
+Farmers Market,Affluence_Proxy,Premium_Supermarket
+international school,Affluence_Proxy,International_School
+british school,Affluence_Proxy,International_School
+jakarta intercultural school,Affluence_Proxy,International_School
+pet cafe,Lifestyle_Proxy,Pet_Cafe
+cat cafe,Lifestyle_Proxy,Pet_Cafe
+dog cafe,Lifestyle_Proxy,Pet_Cafe
+pet friendly cafe,Lifestyle_Proxy,Pet_Cafe
+pet park,Lifestyle_Proxy,Pet_Park
+dog park,Lifestyle_Proxy,Pet_Park
+taman anjing,Lifestyle_Proxy,Pet_Park
+premium gym,Affluence_Proxy,Premium_Fitness
+fitness first,Affluence_Proxy,Premium_Fitness
+celebrity fitness,Affluence_Proxy,Premium_Fitness
+equinox,Affluence_Proxy,Premium_Fitness
+golf club,Affluence_Proxy,Golf_Club
+country club,Affluence_Proxy,Country_Club
+starbucks,Lifestyle_Proxy,Premium_Coffee
+coffee bean,Lifestyle_Proxy,Premium_Coffee
+mall,Lifestyle_Proxy,Shopping_Mall
+premium mall,Lifestyle_Proxy,Premium_Mall
+luxury car dealer,Affluence_Proxy,Luxury_Dealer
+mercedes benz,Affluence_Proxy,Luxury_Dealer
+bmw dealer,Affluence_Proxy,Luxury_Dealer
+porsche,Affluence_Proxy,Luxury_Dealer

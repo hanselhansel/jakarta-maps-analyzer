@@ -1,0 +1,103 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jakarta-maps-analyzer"
+version = "2.0.0"
+description = "AI-powered pet market analysis for Jakarta using Google Maps Platform"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    {name = "Hansel Wahjono", email = "hansel.wahjono@gmail.com"},
+]
+
+dependencies = [
+    "googlemaps==4.10.0",
+    "python-dotenv==1.0.0",
+    "pandas==2.0.3",
+    "numpy==1.24.3",
+    "tqdm==4.65.0",
+    "requests>=2.31.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov>=4.0",
+    "black>=23.0",
+    "flake8>=6.0",
+    "mypy>=1.0",
+    "isort>=5.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/hanselhansel/jakarta-maps-analyzer"
+"Bug Tracker" = "https://github.com/hanselhansel/jakarta-maps-analyzer/issues"
+
+[tool.black]
+line-length = 88
+target-version = ['py38']
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.env
+  | \.venv
+  | build
+  | dist
+  | deprecated
+)/
+'''
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+include_trailing_comma = true
+force_grid_wrap = 0
+use_parentheses = true
+line_length = 88
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py", "*_test.py"]
+python_functions = ["test_*"]
+python_classes = ["Test*"]
+addopts = "-v --tb=short --strict-markers"
+markers = [
+    "slow: marks tests as slow (deselect with '-m \"not slow\"')",
+    "integration: marks tests as integration tests",
+    "unit: marks tests as unit tests",
+]
+
+[tool.mypy]
+python_version = "3.8"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = false
+warn_redundant_casts = true
+warn_unused_ignores = true
+warn_no_return = true
+exclude = [
+    "deprecated/",
+    "tests/",
+]
+
+[tool.coverage.run]
+source = ["src"]
+omit = [
+    "*/tests/*",
+    "*/deprecated/*",
+    "*/__init__.py",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "if self.debug:",
+    "if __name__ == .__main__.:",
+    "raise NotImplementedError",
+    "pass",
+    "except ImportError:",
+]

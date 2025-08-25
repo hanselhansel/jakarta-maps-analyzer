@@ -1,0 +1,25 @@
+keyword,category,sub_category
+dokter hewan,Competitor,Clinic_General
+veterinary clinic,Competitor,Clinic_General
+animal clinic,Competitor,Clinic_General
+pet salon,Competitor,Grooming_Salon
+grooming kucing,Competitor,Grooming_Salon
+pet store,Customer,Pet_Store
+petshop,Customer,Pet_Store
+Farmers Market,Affluence_Proxy,Premium_Supermarket
+british school,Affluence_Proxy,International_School
+jakarta intercultural school,Affluence_Proxy,International_School
+cat cafe,Lifestyle_Proxy,Pet_Cafe
+dog cafe,Lifestyle_Proxy,Pet_Cafe
+pet friendly cafe,Lifestyle_Proxy,Pet_Cafe
+pet park,Lifestyle_Proxy,Pet_Park
+taman anjing,Lifestyle_Proxy,Pet_Park
+premium gym,Affluence_Proxy,Premium_Fitness
+celebrity fitness,Affluence_Proxy,Premium_Fitness
+equinox,Affluence_Proxy,Premium_Fitness
+country club,Affluence_Proxy,Country_Club
+coffee bean,Lifestyle_Proxy,Premium_Coffee
+premium mall,Lifestyle_Proxy,Premium_Mall
+luxury car dealer,Affluence_Proxy,Luxury_Dealer
+bmw dealer,Affluence_Proxy,Luxury_Dealer
+porsche,Affluence_Proxy,Luxury_Dealer

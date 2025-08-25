@@ -1,0 +1,19 @@
+keyword,category,sub_category
+klinik hewan,Competitor,Clinic_General
+pet clinic,Competitor,Clinic_General
+animal hospital,Competitor,Emergency_Hospital
+grooming anjing,Competitor,Grooming_Salon
+pet grooming,Competitor,Grooming_Salon
+pet shop,Customer,Pet_Store
+toko hewan,Customer,Pet_Store
+Ranch Market,Affluence_Proxy,Premium_Supermarket
+The Foodhall,Affluence_Proxy,Premium_Supermarket
+Grand Lucky,Affluence_Proxy,Premium_Supermarket
+international school,Affluence_Proxy,International_School
+pet cafe,Lifestyle_Proxy,Pet_Cafe
+dog park,Lifestyle_Proxy,Pet_Park
+fitness first,Affluence_Proxy,Premium_Fitness
+golf club,Affluence_Proxy,Golf_Club
+starbucks,Lifestyle_Proxy,Premium_Coffee
+mall,Lifestyle_Proxy,Shopping_Mall
+mercedes benz,Affluence_Proxy,Luxury_Dealer

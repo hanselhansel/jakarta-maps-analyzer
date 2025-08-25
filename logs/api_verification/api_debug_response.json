@@ -1,0 +1,123 @@
+{
+  "html_attributions": [],
+  "result": {
+    "business_status": "OPERATIONAL",
+    "formatted_address": "Jl. Kemang Raya No.66 68, RT.8/RW.2, Bangka, Kec. Mampang Prpt., Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12730, Indonesia",
+    "formatted_phone_number": "0813-8221-7182",
+    "geometry": {
+      "location": {
+        "lat": -6.264198299999999,
+        "lng": 106.8159772
+      },
+      "viewport": {
+        "northeast": {
+          "lat": -6.262849869708497,
+          "lng": 106.8173241302915
+        },
+        "southwest": {
+          "lat": -6.265547830291502,
+          "lng": 106.8146261697085
+        }
+      }
+    },
+    "name": "Ranch Market Kemang",
+    "opening_hours": {
+      "open_now": false,
+      "periods": [
+        {
+          "close": {
+            "day": 0,
+            "time": "2200"
+          },
+          "open": {
+            "day": 0,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 1,
+            "time": "2200"
+          },
+          "open": {
+            "day": 1,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 2,
+            "time": "2200"
+          },
+          "open": {
+            "day": 2,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 3,
+            "time": "2200"
+          },
+          "open": {
+            "day": 3,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 4,
+            "time": "2200"
+          },
+          "open": {
+            "day": 4,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 5,
+            "time": "2200"
+          },
+          "open": {
+            "day": 5,
+            "time": "0800"
+          }
+        },
+        {
+          "close": {
+            "day": 6,
+            "time": "2200"
+          },
+          "open": {
+            "day": 6,
+            "time": "0800"
+          }
+        }
+      ],
+      "weekday_text": [
+        "Monday: 8:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+        "Tuesday: 8:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+        "Wednesday: 8:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+        "Thursday: 8:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+        "Friday: 8:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+        "Saturday: 8:00\u202fAM\u2009\u2013\u200910:00\u202fPM",
+        "Sunday: 8:00\u202fAM\u2009\u2013\u200910:00\u202fPM"
+      ]
+    },
+    "place_id": "ChIJewaZxa7xaS4RBBClcpcbgYo",
+    "rating": 4.5,
+    "types": [
+      "establishment",
+      "supermarket",
+      "store",
+      "point_of_interest",
+      "food",
+      "grocery_or_supermarket"
+    ],
+    "user_ratings_total": 694,
+    "vicinity": "Jl. Kemang Raya No.66 68, RT.8/RW.2, Bangka, South Jakarta City",
+    "website": "https://www.ranchmarket.co.id/"
+  },
+  "status": "OK"
+}
